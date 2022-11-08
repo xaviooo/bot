@@ -1,11 +1,3 @@
-/*--------------------------- Color variations ----------------------*/
-/* Medium Layout: 1280px */
-/* Tablet Layout: 768px */
-/* Mobile Layout: 320px */
-/* Wide Mobile Layout: 480px */
-/* =================================== */
-/*  Basic Style 
-/* =================================== */
 ::-moz-selection {
   /* Code for Firefox */
   background-color: #235ee7;
@@ -1927,33 +1919,6 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 
-.mabout-img{
-  border-radius: 20px;
-   width: 500px;
-   /* height: 230px; */
-  -webkit-border-radius: 20px;
-  -moz-border-radius: 20px;
-  -ms-border-radius: 20px;
-  -o-border-radius: 20px;
-  border: 3px solid #235ee7;
-}
-
-.mabout-img:hover{
-  transition: all .5s ease;
-  -webkit-transition: all .5s ease;
-  -moz-transition: all .5s ease;
-  -ms-transition: all .5s ease;
-  -o-transition: all .5s ease;
-  transform: scale(1.012);
-  -webkit-transform: scale(1.012);
-  -moz-transform: scale(1.012);
-  -ms-transform: scale(1.012);
-  -o-transform: scale(1.012);
-}
-
-
-
-
 
 @media (max-width: 768px) {
   #header #logo h1 {
@@ -2206,7 +2171,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 .section-gap {
-  padding: 120px 0;
+  padding: 60px 0;
 }
 
 .section-title {
@@ -2337,7 +2302,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 .banner-content h1 {
   color: #fff;
-  font-size: 52px;
+  font-size: 45px;
   font-weight: 300;
   line-height: 1em;
   margin-top: 40px;
@@ -2876,41 +2841,26 @@ h6 {
   margin: 0;
 }
 
-
-
-
-
-
-::-webkit-scrollbar {
-  width: 8px;
-}
-/* Track */
-::-webkit-scrollbar-track {
-  background: #f1f1f1; 
-}
- 
-/* Handle */
-::-webkit-scrollbar-thumb {
-  background: #888; 
+.shopy
+{
+  margin-top: -40px;
+  margin-bottom: 40px;
 }
 
-/* Handle on hover */
-::-webkit-scrollbar-thumb:hover {
-  background: #555; 
-} body {
-color: #616161;
-overflow-x: hidden;
-height: 100%;
-background-color: #ECEFF1;
-background-repeat: no-repeat;
-}
 
+.shopp{
+  margin-top: 10px;
+}
 .card-strip {
 background-color: #fff;
-padding: 25px;
+padding: 35px;
 width: 950px;
-margin: 20px auto;
-border-radius: 3px;
+/* margin: 20px auto; */
+margin-left: auto;
+margin-right: auto;
+margin-top: 20px;
+
+border-radius: 10px;
 box-shadow: 0px 8px 16px 0px #E0E0E0;
 }
 
@@ -2985,3 +2935,114 @@ margin-left: 95px;
 margin-left: 0px;
 }
 }
+
+.footer__payment a{
+  margin-left: 2px;
+}
+
+
+
+
+
+
+.swiper-container {
+  width: 100%;
+   padding-top: 20px;
+  padding-bottom: 50px; 
+}
+.swiper-slide {
+  background-position: center;
+  background-size: cover;
+  width: 300px;
+  height: 380px;
+   /* background: #fff; */
+
+}
+
+.swiper-slide .imgBx{
+  width: 100%;
+  height: 350px;
+  overflow: hidden;
+  border-radius: 10px;
+}
+
+
+.swiper-slide .imgBx img{
+  /* margin-top: 50px; */
+  width: 100%;
+  height: 100%;
+}
+
+ .swiper-slide .details{
+   box-sizing: border-box;
+   font-size: 20px;
+   padding: 20px;
+   /* margin-top: -500px; */
+  background:  #E4E7ED;
+  display: none;
+ }
+  .swiper-slide .details h3
+  {
+    margin: 0;
+    padding: 0;
+    font-size: 20px;
+    text-align: center;
+    line-height: 20px;
+  }
+
+   .swiper-slide .details h3 span
+  {
+    color: #f44336;
+    font-size: 16px;
+  }
+
+
+  
+@media only screen and (max-width: 880px) {
+
+.swiper-slide .imgBx{
+  height: 300px;
+}
+
+/* 
+.swiper-slide .imgBx img{
+  margin-top: 50px;
+  width: 100%;
+  height: 100%;
+} */
+
+}
+
+
+
+.home-about-left {
+  border-radius: 10px;
+  background-color: #fff;
+  padding: 2px;
+  box-shadow: 0px 8px 16px 0px #E0E0E0;
+  }
+
+.mabout-img{
+  border-radius: 10px;
+   width: 100%;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  box-shadow: 0px 4px 5px 0px rgba(0, 0, 0, 0.2);
+}
+
+.mabout-img:hover{
+  transition: all .5s ease;
+  -webkit-transition: all .5s ease;
+  -moz-transition: all .5s ease;
+  -ms-transition: all .5s ease;
+  -o-transition: all .5s ease;
+  transform: scale(1.012);
+  -webkit-transform: scale(1.012);
+  -moz-transform: scale(1.012);
+  -ms-transform: scale(1.012);
+  -o-transform: scale(1.012);
+}
+
+

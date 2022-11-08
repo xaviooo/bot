@@ -1,71 +1,4 @@
-	<!DOCTYPE html>
-	<html lang="zxx" class="no-js">
-	<head>
-		<!-- Mobile Specific Meta -->
-		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-		<!-- Favicon-->
-		<!-- <link rel="shortcut icon" href="img/fav.png"> -->
-		<link href="img/logo.png" rel="icon">
-		<!-- Author Meta -->
-		<meta name="author" content="codepixer">
-		<!-- Meta Description -->
-		<meta name="description" content="">
-		<!-- Meta Keyword -->
-		<meta name="keywords" content="">
-		<!-- meta character set -->
-		<meta charset="UTF-8">
-		<!-- Site Title -->
-		<title>BOT</title>
-
-		<link href="https://fonts.googleapis.com/css?family=Poppins:100,200,400,300,500,600,700" rel="stylesheet"> 
-			<!--
-			CSS
-			============================================= -->
-			<link rel="stylesheet" href="css/linearicons.css">
-			<link rel="stylesheet" href="css/font-awesome.min.css">
-			<link rel="stylesheet" href="css/bootstrap.css">
-			<link rel="stylesheet" href="css/magnific-popup.css">
-			<link rel="stylesheet" href="css/nice-select.css">					
-			<link rel="stylesheet" href="css/animate.min.css">
-			<link rel="stylesheet" href="css/owl.carousel.css">
-			<link rel="stylesheet" href="css/main.css">
-		</head>
-		<body>
-
-			  <header id="header" id="home">
-			    <div class="container">
-			    	<div class="row align-items-center justify-content-between d-flex">
-				      <div id="logo">
-				        <a href="index.html"><img src="img/logo.png" alt="" title="" /></a>
-				      </div>
-				      <nav id="nav-menu-container">
-				        <ul class="nav-menu">
-				          <li class="menu-active"><a href="#about">Home</a></li>
-				          <!-- <li><a href="#about">About</a></li> -->
-						  <li class="menu-has-children"><a href="">About</a>
-				            <ul>
-				              <li><a href="team.html">Our Team</a></li>
-							  <li><a href="#">Contact us</a></li>
-				            </ul>
-				          </li>
-				          <li><a href="#whatwedo">What we do</a></li>
-				          <li><a href="#projects">Projects</a></li>
-				          <li><a href="#shop">Shop</a></li>
-				          <li class="menu-has-children"><a href="">More</a>
-				            <ul>
-				              <!-- <li><a href="generic.html">Generic</a></li> -->
-				              <!-- <li><a href="elements.html">Elements</a></li> -->
-							  <li><a href="#">Internship</a></li>
-							  <li><a href="#">Installation and Maintenance</a></li>
-				            </ul>
-				          </li>
-				        </ul>
-				      </nav><!-- #nav-menu-container -->		    		
-			    	</div>
-			    </div>
-			  </header><!-- #header -->
-
-
+        <?php  include "includes/header.php"; ?>
 			<!-- start banner Area -->
 			<section class="banner-area" id="home">	
 				<div class="container">
@@ -141,15 +74,66 @@
 						</div>
 						
 						<div class="col-lg-6 course-middle">
-							<img class="img-fluid mx-auto d-block" src="img/drone.png" alt="">
-						</div>
+							<!-- <img class="img-fluid mx-auto d-block" src="img/drone.png" alt=""> -->
+
+
+
+							
+  <div class="swiper-container">
+    <div class="swiper-wrapper">
+
+    <div class="swiper-slide">
+      	<div class="imgBx">
+		  <img src="img/BOT Installation and Maintenance.JPG" class="" />
+      	</div>
+      	<div class="details">
+      	<h3>John Doe<br><span> Web Designer</span></h3>	
+      	</div>
+      </div>
+
+    <div class="swiper-slide">
+      	<div class="imgBx">
+		  <img src="img/BOT electronics Board.JPG" class="img-fluid" />
+      	</div>
+      	<div class="details">
+      	<h3>John Doe<br><span> Web Designer</span></h3>	
+      	</div>
+      </div>
+
+	  <div class="swiper-slide">
+      	<div class="imgBx">
+		  <img src="img/maintenance2.JPEG" class="img-fluid" />
+      	</div>
+      	<div class="details">
+      	<h3>John Doe<br><span> Web Designer</span></h3>	
+      	</div>
+      </div>  
+
+   
+    </div>
+    <!-- Add Pagination -->
+    <div class="swiper-pagination"></div>
+  </div>
+
+
+
+			</div>
+
+
+
+
+
+
+
+
 
 						<div class="col-lg-3 course-right">
 
 							<div class="single-course">
 								<a href="#"><h4>Maintenance</h4></a>
 								<p>
-									Repairing of motor vehicles and motorcycles. 
+									<!-- Repairing of motor vehicles and motorcycles.  -->
+							Electrical, Electronics, IT equipments and engineering systems troubleshooting 
 								</p>
 							</div>
 
@@ -283,16 +267,17 @@
 					<div class="row d-flex justify-content-center mt-3">
 						<div class="menu-content pb-60 col-lg-10">
 							<div class="title text-center">
-								<h1 class="mb-10">Shop</h1>
-								<p>
+								<h1 class="mb-2">Shop</h1>
+								<p class="shopp">
 									Welcome to BOT Hardware Shop, we have electronic equipment, telecommunication equipment, electrical equipment and IT equipment.
 								</p>
 							</div>
 						</div>
 					</div>	
 
+					<div class="shopy">
 					   <!-- wholesale -->
-					   <div class="row d-flex justify-content-start card-strip">
+					   <div class="row d-flex card-strip">
 						<h5 class="title mr-4 mt-3">Wholesale</h5>
 						<div class="info">
 							<div class="row px-3 mb-2">
@@ -335,7 +320,7 @@
 
 
 					 <!-- Retail sale -->
-					 <div class="row d-flex justify-content-start card-strip">
+					 <div class="row d-flex card-strip">
 						<h5 class="title mr-4 mt-3">Retail sale</h5>
 						<div class="info">
 							<div class="row px-3 mb-2">
@@ -372,6 +357,8 @@
 								<p class="mb-1"><span class="fa fa-star ml-4"> Others</span></p>
 							</div>
 						</div>
+					</div>
+
 					</div>
 					
 					
@@ -485,163 +472,11 @@
 								</p>
 							</div>
 						</div>
-					</div>						
-					<!-- <div class="row">
-						<div class="col-lg-4 col-md-12">
-							<div class="single-review">
-								<h4>Cody Hines</h4>
-								<p>
-									Accessories Here you can find the best computer accessory for your laptop, monitor, printer, scanner, speaker.
-								</p>
-								<div class="star">
-									<span class="fa fa-star checked"></span>
-									<span class="fa fa-star checked"></span>
-									<span class="fa fa-star checked"></span>
-									<span class="fa fa-star"></span>
-									<span class="fa fa-star"></span>
-								</div>
-							</div>
-						</div>
-						<div class="col-lg-4 col-md-6">
-							<div class="single-review">
-								<h4>Chad Herrera</h4>
-								<p>
-									Accessories Here you can find the best computer accessory for your laptop, monitor, printer, scanner, speaker.
-								</p>
-								<div class="star">
-									<span class="fa fa-star checked"></span>
-									<span class="fa fa-star checked"></span>
-									<span class="fa fa-star"></span>
-									<span class="fa fa-star"></span>
-									<span class="fa fa-star"></span>
-								</div>
-							</div>
-						</div>
-						<div class="col-lg-4 col-md-6">
-							<div class="single-review">
-								<h4>Andre Gonzalez</h4>
-								<p>
-									Accessories Here you can find the best computer accessory for your laptop, monitor, printer, scanner, speaker.
-								</p>
-								<div class="star">
-									<span class="fa fa-star checked"></span>
-									<span class="fa fa-star checked"></span>
-									<span class="fa fa-star"></span>
-									<span class="fa fa-star"></span>
-									<span class="fa fa-star"></span>
-								</div>
-							</div>
-						</div>
-						<div class="col-lg-4 col-md-6">
-							<div class="single-review">
-								<h4>Jon Banks</h4>
-								<p>
-									Accessories Here you can find the best computer accessory for your laptop, monitor, printer, scanner, speaker.
-								</p>
-								<div class="star">
-									<span class="fa fa-star checked"></span>
-									<span class="fa fa-star checked"></span>
-									<span class="fa fa-star checked"></span>
-									<span class="fa fa-star"></span>
-									<span class="fa fa-star"></span>
-								</div>
-							</div>
-						</div>
-						<div class="col-lg-4 col-md-6">
-							<div class="single-review">
-								<h4>Landon Houston</h4>
-								<p>
-									Accessories Here you can find the best computer accessory for your laptop, monitor, printer, scanner, speaker.
-								</p>
-								<div class="star">
-									<span class="fa fa-star checked"></span>
-									<span class="fa fa-star checked"></span>
-									<span class="fa fa-star checked"></span>
-									<span class="fa fa-star checked"></span>
-									<span class="fa fa-star"></span>
-								</div>
-							</div>
-						</div>
-						<div class="col-lg-4 col-md-6">
-							<div class="single-review">
-								<h4>Nelle Wade</h4>
-								<p>
-									Accessories Here you can find the best computer accessory for your laptop, monitor, printer, scanner, speaker.
-								</p>
-								<div class="star">
-									<span class="fa fa-star checked"></span>
-									<span class="fa fa-star checked"></span>
-									<span class="fa fa-star checked"></span>
-									<span class="fa fa-star checked"></span>
-									<span class="fa fa-star"></span>
-								</div>
-							</div>
-						</div>																
-					</div> -->
+					</div>	
+
 				</div>	
 			</section>
 			<!-- End review Area -->
 
-			<!-- start footer Area -->		
-			<footer class="footer-area section-gap">
-				<div class="container">
-					<div class="row">
-						<div class="col-lg-5 col-md-6 col-sm-6">
-							<div class="single-footer-widget">
-								<h6>BOT</h6>
-								<p>
-									BOT cheaply supply & install electrical and electronics equipment locally, develop and implement new best innovative projects in power systems, energy systems with application of developing technologies like Big data, ML, AI, and IoT, and bring solutions to the vulnerable communities.			
-								</p>
-								<p class="footer-text">
-									<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
- &copy; All Right Reserved <script>document.write(new Date().getFullYear());</script> BERBASON OASIS TECHNOLOGIES Ltd 
-<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-								</p>								
-							</div>
-						</div>
-						<div class="col-lg-5  col-md-6 col-sm-6">
-							<div class="single-footer-widget">
-								<h6>Address</h6>
-								<p>Kigali, Rwanda<br>
-								+250791207055
-								<br>
-								berbasontechnologies@gmail.com
-								</p>
-							</div>
-						</div>						
-						<div class="col-lg-2 col-md-6 col-sm-6 social-widget">
-							<div class="single-footer-widget">
-								<h6>Follow Us on social media</h6>
-								<div class="footer-social d-flex align-items-center">
-									<a href="https://web.facebook.com/BerbasonOasisTechnologies"target="blank"><i class="fa fa-facebook"></i></a>
-									<a href="https://twitter.com/BO_Technologies" target="blank"><i class="fa fa-twitter"></i></a>
-									<a href="https://instagram.com/berbason_oasis_technologies?utm_medium=copy_link"target="blank"><i class="fa fa-instagram"></i></a>
-									<a href="https://www.linkedin.com/company/berbason-oasis-technologies-ltd" target="blank"><i class="fa fa-linkedin"></i></a>
-								</div>
-							</div>
-						</div>							
-					</div>
-				</div>
-			</footer>	
-			<!-- End footer Area -->	
-
-			<script src="js/vendor/jquery-2.2.4.min.js"></script>
-			<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-			<script src="js/vendor/bootstrap.min.js"></script>			
-			<script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBhOdIF3Y9382fqJYt5I_sswSrEw5eihAA"></script>
-  			<script src="js/easing.min.js"></script>			
-			<script src="js/hoverIntent.js"></script>
-			<script src="js/superfish.min.js"></script>	
-			<script src="js/jquery.ajaxchimp.min.js"></script>
-			<script src="js/jquery.magnific-popup.min.js"></script>	
-			<script src="js/owl.carousel.min.js"></script>			
-			<script src="js/jquery.sticky.js"></script>
-			<script src="js/jquery.nice-select.min.js"></script>			
-			<script src="js/parallax.min.js"></script>	
-			<script src="js/mail-script.js"></script>	
-			<script src="js/main.js"></script>	
-		</body>
-	</html>
-
-
-
+	<!-- start footer Area -->	
+	<?php  include "includes/footer.php"; ?>	

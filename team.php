@@ -1,79 +1,12 @@
-	<!DOCTYPE html>
-	<html lang="zxx" class="no-js">
-	<head>
-		<!-- Mobile Specific Meta -->
-		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-		<!-- Favicon-->
-		<!-- <link rel="shortcut icon" href="img/fav.png"> -->
-		<link href="img/logo.png" rel="icon">
-		<!-- Author Meta -->
-		<meta name="author" content="codepixer">
-		<!-- Meta Description -->
-		<meta name="description" content="">
-		<!-- Meta Keyword -->
-		<meta name="keywords" content="">
-		<!-- meta character set -->
-		<meta charset="UTF-8">
-		<!-- Site Title -->
-		<title>BOT</title>
-
-		<link href="https://fonts.googleapis.com/css?family=Poppins:100,200,400,300,500,600,700" rel="stylesheet"> 
-			<!--
-			CSS
-			============================================= -->
-			<link rel="stylesheet" href="css/linearicons.css">
-			<link rel="stylesheet" href="css/font-awesome.min.css">
-			<link rel="stylesheet" href="css/bootstrap.css">
-			<link rel="stylesheet" href="css/magnific-popup.css">
-			<link rel="stylesheet" href="css/nice-select.css">					
-			<link rel="stylesheet" href="css/animate.min.css">
-			<link rel="stylesheet" href="css/owl.carousel.css">
-			<link rel="stylesheet" href="css/main.css">
-			<link href="css/team.css" rel="stylesheet">
-		</head>
-		<body>
-
-			  <header id="header" id="home">
-			    <div class="container">
-			    	<div class="row align-items-center justify-content-between d-flex">
-				      <div id="logo">
-				        <a href="index.html"><img src="img/logo.png" alt="" title="" /></a>
-				      </div>
-				      <nav id="nav-menu-container">
-				        <ul class="nav-menu">
-				          <li class="menu-active"><a href="index.html#about">Home</a></li>
-				          <!-- <li><a href="#about">About</a></li> -->
-						  <li class="menu-has-children"><a href="">About</a>
-				            <ul>
-				              <li><a href="team.html">Our Team</a></li>
-							  <li><a href="#">Contact us</a></li>
-				            </ul>
-				          </li>
-				          <li><a href="index.html#whatwedo">What we do</a></li>
-				          <li><a href="index.html#projects">Projects</a></li>
-				          <li><a href="index.html#shop">Shop</a></li>
-				          <li class="menu-has-children"><a href="">More</a>
-				            <ul>
-				              <!-- <li><a href="generic.html">Generic</a></li> -->
-				              <!-- <li><a href="elements.html">Elements</a></li> -->
-							  <li><a href="#">Internship</a></li>
-							  <li><a href="#">Installation and Maintenance</a></li>
-				            </ul>
-				          </li>
-				        </ul>
-				      </nav><!-- #nav-menu-container -->		    		
-			    	</div>
-			    </div>
-			  </header><!-- #header -->
-
-			
+          <?php  include "includes/header2.php"; ?>
+			  <!-- #header -->
 			<!-- Start top-course Area -->
 			<section class="top-course-area section-gap" id="whatwedo">
 				<div class="container">
 					<div class="row d-flex justify-content-center">
 						<div class="menu-content pb-60 col-lg-10">
 							<div class="title text-center">
-								<h1 class="mb-10">TEAM</h1>
+								<h1 class="mt-30">TEAM</h1>
 					           <p>Our Team Members</p>
 							</div>
 						</div>
@@ -87,7 +20,7 @@
 				<div class="col-lg-4">
 					<div class="our-team-main">
 						<div class="team-front">
-							 <img src="img/Ntambara Sylvestre Owen - Managing Director.jpg" class="img-fluid" />
+							 <img src="img/owen passport.png" class="img-fluid" />
 							<h3> Owen</h3>
 							<p>Managing Director</p>
 						</div>
@@ -150,7 +83,7 @@
 					 <div class="col-lg-4">
 						<div class="our-team-main">
 							<div class="team-front">
-								 <img src="img/Ntakirutimana Thierry - Administration and Logistics Officer.jfif" class="img-fluid" />
+								 <img src="img/Thierry Ntakirutimana.jpg" class="img-fluid" />
 								<h3>Thierry</h3>
 								<p>Administration and Logistics Officer</p>
 							</div>
@@ -211,7 +144,8 @@
 
 					<div class="col-lg-4">
 						<div class="our-team-main">
-							<div class="team-front"> <img src="img/Isabwe Anaise - Jr Electronics Engineer.JPG" class="img-fluid" />
+							<div class="team-front">
+								 <img src="img/Isabwe Anaise - Jr Electronics Engineer.JPG" class="img-fluid" />
 								<h3>Anaise</h3>
 								<p>Jr Electronics Engineer</p>
 							</div>
@@ -232,7 +166,8 @@
 
 					<div class="col-lg-4">
 						<div class="our-team-main">
-							<div class="team-front"> <img src="img/Xavier Rucahobatinya - IT Officer.jpg" class="img-fluid" />
+							<div class="team-front"> 
+								<img src="img/Xavier Rucahobatinya - IT Officer.jpg" class="img-fluid" />
 								<h3>Xavier</h3>
 								<p>IT Officer</p>
 							</div>
@@ -252,12 +187,12 @@
 
 					<div class="col-lg-4">
 						<div class="our-team-main">
-							<div class="team-front"> <img src="img/elements/disabled-radio.png" class="img-fluid" />
-								<h3>Other</h3>
-								<p>Electrical Engineer</p>
+							<div class="team-front"> <img src="img/Kwizera Alex.jpg" class="img-fluid" />
+								<h3>Kwizera Alex</h3>
+								<p>Electrical & Electronic Technician</p>
 							</div>
 							<div class="team-back">
-						 <span>Other........... </span> 
+						 <span>Kwizera Alex........... </span> 
 						 <div class="single-footer-widget mt-3 ml-3">
 							<div class="footer-social d-flex align-items-center">
 								<a href="https://web.facebook.com/BerbasonOasisTechnologies"target="blank"><i class="fa fa-facebook"></i></a>
@@ -275,66 +210,6 @@
 			</section>
 			<!-- End top-course Area -->
 
-	<!-- start footer Area -->		
-	<footer class="footer-area section-gap">
-		<div class="container">
-			<div class="row">
-				<div class="col-lg-5 col-md-6 col-sm-6">
-					<div class="single-footer-widget">
-						<h6>BOT</h6>
-						<p>
-							BOT cheaply supply & install electrical and electronics equipment locally, develop and implement new best innovative projects in power systems, energy systems with application of developing technologies like Big data, ML, AI, and IoT, and bring solutions to the vulnerable communities.			
-						</p>
-						<p class="footer-text">
-							<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-&copy; All Right Reserved <script>document.write(new Date().getFullYear());</script> BERBASON OASIS TECHNOLOGIES Ltd 
-<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-						</p>								
-					</div>
-				</div>
-				<div class="col-lg-5  col-md-6 col-sm-6">
-					<div class="single-footer-widget">
-						<h6>Address</h6>
-						<p>Kigali, Rwanda<br>
-						+250791207055
-						<br>
-						berbasontechnologies@gmail.com
-						</p>
-					</div>
-				</div>						
-				<div class="col-lg-2 col-md-6 col-sm-6 social-widget">
-					<div class="single-footer-widget">
-						<h6>Follow Us on social media</h6>
-						<div class="footer-social d-flex align-items-center">
-							<a href="https://web.facebook.com/BerbasonOasisTechnologies"target="blank"><i class="fa fa-facebook"></i></a>
-							<a href="https://twitter.com/BO_Technologies" target="blank"><i class="fa fa-twitter"></i></a>
-							<a href="https://instagram.com/berbason_oasis_technologies?utm_medium=copy_link"target="blank"><i class="fa fa-instagram"></i></a>
-							<a href="https://www.linkedin.com/company/berbason-oasis-technologies-ltd" target="blank"><i class="fa fa-linkedin"></i></a>
-						</div>
-					</div>
-				</div>							
-			</div>
-		</div>
-	</footer>	
-	<!-- End footer Area -->	
-
-	<script src="js/vendor/jquery-2.2.4.min.js"></script>
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-	<script src="js/vendor/bootstrap.min.js"></script>			
-	<script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBhOdIF3Y9382fqJYt5I_sswSrEw5eihAA"></script>
-	  <script src="js/easing.min.js"></script>			
-	<script src="js/hoverIntent.js"></script>
-	<script src="js/superfish.min.js"></script>	
-	<script src="js/jquery.ajaxchimp.min.js"></script>
-	<script src="js/jquery.magnific-popup.min.js"></script>	
-	<script src="js/owl.carousel.min.js"></script>			
-	<script src="js/jquery.sticky.js"></script>
-	<script src="js/jquery.nice-select.min.js"></script>			
-	<script src="js/parallax.min.js"></script>	
-	<script src="js/mail-script.js"></script>	
-	<script src="js/main.js"></script>	
-</body>
-</html>
-
-
-
+		    <!-- start footer Area -->	
+			<?php  include "includes/footer.php"; ?>	
+	
